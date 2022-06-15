@@ -1,0 +1,66 @@
+.name-header {
+    text-align: center;
+    font-family: 'Fascinate';
+    font-size: 25px;
+}
+
+.name-header h1 span {
+    color: #9F1739;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin:0;
+    background: darkred;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: red;
+}
+
+.quote {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Satisfy";
+    font-style: italic;
+    background: #EAE8E4;
+}
+
+img {
+    float: left;
+    border-radius: 50%;
+    height: auto;
+    width: 380px;
+}
+
+.information-body p {
+    display: block;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 17px;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 25px;
+    font-family: "Caveat";
+}
+
+.information-body h3 {
+    display: block;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 17px;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 25px;
+    font-family: "Caveat";
+}
